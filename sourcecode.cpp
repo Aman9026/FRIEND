@@ -344,4 +344,32 @@ cout<<"\n\n \t\tI hope that these are very convincing reasons why one should ado
 //System("CLS") is used here for clearing up the screen at this point of program
 
 getch();
-system ("CLS");
+
+
+//*************************************
+//                                    *
+//ANURAG PART OF CODE    *
+//                                    *
+//*************************************
+
+
+
+
+
+//the second if block for menu in games section
+    if (x==2)
+    {
+
+
+    //DSIPLAY OF GAMES MENU
+    cout<<"\n\n\n\n \t\t CHOOSE THE DESIRED OPTION FROM THE FOLLOWING- ";
+
+    cout<<"\n\n \t\t OPTION * 1 * \tHangman";
+
+    cout<<"\n \t\t OPTION * 2 * \tTic Tac Toe";
+
+    cout<<"\n\n \t\t ENTER THE OPTION NUMBER  "<<name<<":\t";
+
+    cin>>xx;
+
+   system ("CLS");
