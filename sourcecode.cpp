@@ -471,3 +471,41 @@ cout<<"\n";
 		}
 
 
+		// Tell user how many guesses has left.
+
+		cout << "\t\tYou have " << MAX_TRIES - num_of_wrong_guesses;
+
+
+		cout << "\t\t guesses left." << endl;
+
+
+		// Check if user guessed the word.
+
+
+		if (word==unknown)
+		{
+			cout << word << endl;
+
+			cout << "Yeah! You got it!";
+
+			break;
+
+		}
+	}
+
+	if(num_of_wrong_guesses == MAX_TRIES)
+	{
+
+		cout << "\n\tSorry, you lose...you've been hanged." << endl;
+
+		cout << "\tThe word was : " << word << endl;
+
+	}
+
+	cin.ignore();
+
+
+	cin.get();
+
+    }
+
