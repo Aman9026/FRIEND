@@ -1068,6 +1068,173 @@ if(x!=1||x!=2) {cout<<"\n\n\n\t\tYOU CHOOSE INCORRECT OPTION :( TRY AGAIN\n\n\n\
 
 
 
+//FUNCTION TO DRAW BOARD OF TIC TAC TOE WITH PLAYERS MARK
+
+
+
+
+
+
+
+
+int checkwin()
+{
+
+
+
+
+    if (square[1] == square[2] && square[2] == square[3])
+
+        return 1;
+
+
+
+    else if (square[4] == square[5] && square[5] == square[6])
+
+        return 1;
+
+
+
+    else if (square[7] == square[8] && square[8] == square[9])
+
+        return 1;
+
+
+
+    else if (square[1] == square[4] && square[4] == square[7])
+
+        return 1;
+
+
+
+    else if (square[2] == square[5] && square[5] == square[8])
+
+        return 1;
+
+
+
+    else if (square[3] == square[6] && square[6] == square[9])
+
+        return 1;
+
+
+
+    else if (square[1] == square[5] && square[5] == square[9])
+
+        return 1;
+
+
+
+    else if (square[3] == square[5] && square[5] == square[7])
+
+        return 1;
+
+
+
+    else if (square[1] != '1' && square[2] != '2' && square[3] != '3'
+                    && square[4] != '4' && square[5] != '5' && square[6] != '6'
+                  && square[7] != '7' && square[8] != '8' && square[9] != '9')
+
+
+
+        return 0;
+    else
+        return -1;
+}
+
+
+
+
+
+void board()
+{
+
+
+    system("cls");
+
+
+    cout << "\n\n\tTic Tac Toe\n\n";
+
+
+    cout << "Player 1 (X)  -  Player 2 (O)" << endl << endl;
+
+
+    cout << endl;
+
+    cout << "     |     |     " << endl;
+
+
+    cout << "  " << square[1] << "  |  " << square[2] << "  |  " << square[3] << endl;
+
+    cout << "_____|_____|_____" << endl;
+
+
+    cout << "     |     |     " << endl;
+
+
+    cout << "  " << square[4] << "  |  " << square[5] << "  |  " << square[6] << endl;
+
+    cout << "_____|_____|_____" << endl;
+
+
+    cout << "     |     |     " << endl;
+
+    cout << "  " << square[7] << "  |  " << square[8] << "  |  " << square[9] << endl;
+
+    cout << "     |     |     " << endl << endl;
+}
+
+
+
+
+/* Take a one character guess and the secret word, and fill in the
+ unfinished guessword. Returns number of characters matched.
+ Also, returns zero if the character is already guessed. */
+
+
+
+
+int letterFill (char guess, string secretword, string &guessword)
+{
+
+	int i;
+
+
+	int matches=0;
+
+
+	int len=secretword.length();
+
+
+	for (i = 0; i< len; i++)
+	{
+
+
+		// Did we already match this letter in a previous guess?
+
+
+		if (guess == guessword[i])
+
+
+			return 0;
+
+
+		// Is the guess in the secret word?
+
+
+		if (guess == secretword[i])
+		{
+
+			guessword[i] = guess;
+
+
+			matches++;
+
+		}
+	}
+
+	return matches;
+}
 
 
 
