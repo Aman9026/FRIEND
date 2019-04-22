@@ -168,4 +168,36 @@ int main ()
 
 
 
+//System("CLS") is used here for clearing up the screen at this point of program
+
+            getch();
+
+    system ("CLS");
+
+
+//DISPLAY FOR GETTING THE USER'S NAME AND SAPID
+
+
+    char name[50];
+
+    int sapid;
+
+    cout<<"\n\n\n\n\n\n\n\n";
+
+    cout<<"\t \t \t \t \t \t  ********************************************************************      ";
+
+    cout<<"\n \t \t \t \t \t \t  *   ENTER YOUR NAME: ";
+
+    cin>>name;
+
+    cout<<"\n \t \t \t \t \t \t  *   ENTER YOUR SAPID: ";
+
+    cin>>sapid;
+
+    cout<<"\n \t \t \t \t \t \t  *\t\t\t \t \t \t \t \t     *";
+
+
+
+    cout<<"\n \t \t \t \t \t \t  ********************************************************************      ";
+
 
