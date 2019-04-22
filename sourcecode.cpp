@@ -439,4 +439,35 @@ cout<<"\n";
 
 cout<<"\n";
 
+// Loop until the guesses are used up
+
+	while (num_of_wrong_guesses < MAX_TRIES)
+	{
+		cout << "\n\n\t\t" << unknown;
+
+
+		cout << "\n\n\t\tGuess a letter: \t";
+
+
+		cin >> letter;
+		// Fill secret word with letter if the guess is correct,
+
+
+		// otherwise increment the number of wrong guesses.
+
+		if (letterFill(letter, word, unknown)==0)
+		{
+			cout << endl << "\t\tWhoops! That letter isn't in there!" << endl;
+
+			num_of_wrong_guesses++;
+
+		}
+
+		else
+		{
+
+			cout << endl << "\t\tYou found a letter! Isn't that exciting!" << endl;
+
+		}
+
 
