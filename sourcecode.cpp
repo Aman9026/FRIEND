@@ -345,3 +345,240 @@ cout<<"\n\n \t\tI hope that these are very convincing reasons why one should ado
 
 getch();
 system ("CLS");
+//*************************************
+//                                    *
+//DEVMALYA'S PART OF CODE    *
+//                                    *
+//*************************************
+
+
+
+
+
+
+
+cout<<"\n\n \t\tGetting Started with C                         ";
+
+
+cout<<"\n\n \t\tCommunicating with a computer involves speaking the language the computer understands, which immediately rules out English as the language of communication with computer.                         ";
+
+
+
+cout<<"\n\n \t\t The classical method of learning English is to first learn the alphabets used in the language, then learn to combine these alphabets to form words, which in turn are combined to form sentences and sentences are combined to form paragraphs. Learning C is similar and easier.                         ";
+
+
+
+cout<<"\n\n \t\tInstead of straight-away learning how to write programs, we
+	must first know what alphabets, numbers and special symbols are used in
+	C, then how using them constants, variables and keywords are
+	constructed, and finally how are these combined to form an instruction.
+	";
+cout<<"\n\n \t\tThe C Character Set                         ";
+
+
+
+cout<<"\n\n \t\tA character denotes any alphabet, digit or special symbol used to represent information. Figure 1.2 shows the valid alphabets, numbers and special symbols allowed in C.                         ";
+
+
+
+cout<<"\n\n \t\tConstants, Variables and Keywords                         ";
+
+
+
+cout<<"\n\n \t\tThe alphabets, numbers and special symbols when properly combined form constants, variables and keywords. Let us see what are ‘constants’ and ‘variables’ in C. A constant is an entity that doesn’t change whereas a variable is an entity that may change                        ";
+
+
+//System("CLS") is used here for clearing up the screen at this point of program
+    getch();
+    system ("CLS");
+cout<<"\n\n \t\tIn any program we typically do lots of calculations. The results of these calculations are stored in computers memory.                         ";
+
+
+
+cout<<"\n\n \t\tLike human memory the computer memory also consists of millions of cells.                         ";
+
+
+
+cout<<"\n\n \t\tThe calculated values are stored in these memory cells. To make the retrieval and usage of these values easy these memory cells (also called memory locations) are given names.                         ";
+
+
+
+cout<<"\n\n \t\t Since the value stored in each location may change the names given to these locations are called variable names. Consider the following example.                          ";
+
+
+
+cout<<"\n\n \t\t Here 3 is stored in a memory location and a name x is given to it. Then we are assigning a new value 5 to the same memory location x. This would overwrite the earlier value 3, since a memory location can hold only one value at a time.                        ";
+
+
+
+cout<<"\n\n \t\t Types of C Constants                        ";
+
+
+
+cout<<"\n\n \t\t C constants can be divided into two major categories: (a) (b) Primary Constants Secondary Constants                        ";
+
+//System("CLS") is used here for clearing up the screen at this point of program
+
+
+getch();
+
+
+system ("CLS");
+
+
+
+cout<<"\n\n \t\tRules for Constructing Integer Constants                         ";
+
+
+
+cout<<"\n\n \t\t";
+
+cout<<"\n\n \t\tThe exponential form of representation of real constants is usually used if the value of the constant is either too small or too large. It however doesn’t restrict us in any way from using exponential form of representation for other real constants.                          ";
+
+
+
+cout<<"\n\n \t\tIn exponential form of representation, the real constant is represented in two parts. The part appearing before ‘e’ is called mantissa, whereas the part following ‘e’ is called exponent.                         ";
+
+
+
+cout<<"\n\n \t\tTypes of C Variables                         ";
+
+
+
+cout<<"\n\n \t\tAs we saw earlier, an entity that may vary during program execution is called a variable. Variable names are names given to locations in memory.                         ";
+
+
+
+cout<<"\n\n \t\t These locations can contain integer, real or character constants. In any language, the types of variables that it can support depend on the types of constants that it can handle. This is because a particular type of variable can hold only the same type of constant. For example, an integer variable can hold only an integer constant, a real variable can hold only a real constant and a character variable can hold only a character constant.                         ";
+
+
+
+//System("CLS") is used here for clearing up the screen at this point of program
+
+
+getch();
+
+
+system ("CLS");
+
+cout<<"\n";
+
+
+cout<<" C Keywords        ";
+
+cout<<"\n";
+
+cout<<"\n";
+
+cout<<"\n";
+
+cout<<" Keywords are the words whose meaning has already been explained to the C compiler (or in a broad sense to the computer). The keywords cannot be used as variable names because if we do so we are trying to assign a new meaning to the keyword, which is not allowed by the computer.        ";
+
+cout<<"\n";
+
+
+cout<<"\n";
+
+
+cout<<"  Some C compilers allow you to construct variable names that exactly resemble the keywords. However, it would be safer not to mix up the variable names and the keywords. The keywords are also called ‘Reserved words’.        ";
+
+cout<<"\n";
+
+
+cout<<"  Note that compiler vendors (like Microsoft, Borland, etc.) provide their own keywords apart from the ones mentioned above. These include extended keywords like near, far, asm, etc.       ";
+
+cout<<"\n";
+
+
+cout<<"   Though it has been suggested by the ANSI committee that every such compiler specific keyword should be preceded by two underscores (as in __asm ), not every vendor follows this rule.      ";
+
+cout<<"\n";
+
+
+
+//System("CLS") is used here for clearing up the screen at this point of program
+    getch();
+    system ("CLS");
+cout<<" The First C Program       ";
+
+cout<<"\n";
+
+
+cout<<" Armed with the knowledge about the types of variables, constants & keywords the next logical step is to combine them to form instructions.        ";
+
+cout<<"\n";
+
+
+cout<<"   However, instead of this, we would write our first C program now. Once we have done that we would see in detail the instructions that it made use of.       ";
+
+cout<<"\n";
+
+
+cout<<"Compilation and Execution  ";
+
+cout<<"\n";
+
+
+cout<<"Once you have written the program you need to type it and instruct the machine to execute it. To type your C program you need another program called Editor.         ";
+
+cout<<"\n";
+
+
+cout<<"  Once the program has been typed it needs to be converted to machine language (0s and 1s) before the machine can execute it.        ";
+
+cout<<"\n";
+
+
+cout<<"  To carry out this conversion we need another program called Compiler. Compiler vendors provide an Integrated Development Environment (IDE) which consists of an Editor as well as the Compiler.        ";
+
+cout<<"\n";
+
+
+cout<<" There are several such IDEs available in the market targeted towards different operating systems.        ";
+
+cout<<"\n";
+
+
+cout<<"  For example, Turbo C, Turbo C++ and Microsoft C are some of the popular compilers that work under MS-DOS; Visual C++ and Borland C++ are the compilers that work under Windows, whereas gcc compiler works under Linux.       ";
+
+cout<<"\n";
+
+
+cout<<" Note that Turbo C++, Microsoft C++ and Borland C++ software also contain a C compiler bundled with them. If you are a beginner you would be better off using a simple compiler like Turbo C or Turbo C++. Once you have mastered the language elements you can then switch over to more sophisticated compilers like Visual C++ under Windows or gcc under Linux.        ";
+
+cout<<"\n";
+
+
+cout<<" Note that on compiling the program its machine language equivalent is stored as an EXE file (Program1.EXE) on the disk. This file is called an executable file. If we copy this file to another machine we can execute it there without being required to recompile it. In fact the other machine need not even have a compiler to be able to execute the file.       ";
+
+cout<<"\n";
+
+
+cout<<" A word of caution! If you run this program in Turbo C++ compiler, you may get an error — “The function printf should have a prototype”. To get rid of this error, perform the following steps and then recompile the program.        ";
+
+cout<<"\n";
+
+
+cout<<"        ";
+
+
+
+//System("CLS") is used here for clearing up the screen at this point of program
+
+
+
+getch();
+
+
+system ("CLS");
+
+
+cout<<"\n";
+
+
+cout<<"TO BE CONTINUED IN THE LATEST UPDATE";
+
+
+
+    }
+
