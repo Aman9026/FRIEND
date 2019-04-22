@@ -345,3 +345,32 @@ cout<<"\n\n \t\tI hope that these are very convincing reasons why one should ado
 
 getch();
 system ("CLS");
+//*************************************
+//                                    *
+//DEVMALYA'S PART OF CODE    *
+//                                    *
+//*************************************
+
+
+
+
+
+
+
+cout<<"\n\n \t\tGetting Started with C                         ";
+
+
+cout<<"\n\n \t\tCommunicating with a computer involves speaking the language the computer understands, which immediately rules out English as the language of communication with computer.                         ";
+
+
+
+cout<<"\n\n \t\t The classical method of learning English is to first learn the alphabets used in the language, then learn to combine these alphabets to form words, which in turn are combined to form sentences and sentences are combined to form paragraphs. Learning C is similar and easier.                         ";
+
+
+
+cout<<"\n\n \t\tInstead of straight-away learning how to write programs, we
+	must first know what alphabets, numbers and special symbols are used in
+	C, then how using them constants, variables and keywords are
+	constructed, and finally how are these combined to form an instruction.
+	";
+
