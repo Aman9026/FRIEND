@@ -373,3 +373,70 @@ getch();
     cin>>xx;
 
    system ("CLS");
+
+   //IF BLOCK FOR CHOOSING THE FIRST GAME
+    if (xx==1)
+    {
+
+	string name;
+
+	char letter;
+
+	int num_of_wrong_guesses=0;
+
+	string word;
+
+	string words[] =
+	{
+		"india",
+		"pakistan",
+		"nepal",
+		"malaysia",
+		"bhutan",
+		"australia",
+		"iran",
+		"russia",
+		"oman",
+		"indonesia"
+	};
+
+	//choose and copy a word from array of words randomly
+	srand(time(NULL));
+
+	int n=rand()% 10;
+
+	word=words[n];
+
+	// Initialize the secret word with the * character.
+	string unknown(word.length(),'*');
+
+
+	cout << "\n\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+
+
+	// welcome the user
+	cout << "\n\n\t\tWelcome to hangman...Guess a country Name";
+
+
+	cout<<"\n";
+
+	cout << "\n\n\t\tEach letter is represented by a star.";
+
+cout<<"\n";
+
+
+	cout << "\n\n\t\tYou have to type only one letter in one try";
+
+cout<<"\n";
+
+
+	cout << "\n\n\t\tYou have " << MAX_TRIES << " tries to try and guess the word.";
+
+cout<<"\n";
+
+
+	cout << "\n\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+
+cout<<"\n";
+
+
