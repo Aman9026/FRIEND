@@ -120,6 +120,51 @@ int main ()
     system ("CLS");
 
 
+//*************************************
+//                                    *
+//Animesh'S PART OF CODE    *
+//                                    *
+//*************************************
+
+
+
+
+    int ii;
+
+    cout<<"\nLoading 0%";
+
+    cout<<"\n";
+    cout<<"\n";
+
+     cout<<"\nLoading 10%";
+
+    cout<<"\n";
+    cout<<"\n";
+
+      cout<<"\nLoading 40%";
+
+     cout<<"\n";
+     cout<<"\n";
+
+       cout<<"\nLoading 60%";
+
+     cout<<"\n";
+     cout<<"\n";
+
+        cout<<"\nLoading 90%";
+
+     cout<<"\n";
+     cout<<"\n";
+
+         cout<<"\nLoading 100%";
+
+     cout<<"\n";
+     cout<<"\n";
+
+          cout<<"\nLoading Completed";
+
+ cout<<"\n";
+ cout<<"\n";
 
 
 
