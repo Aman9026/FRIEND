@@ -499,4 +499,86 @@ cout<<"\n";
 //System("CLS") is used here for clearing up the screen at this point of program
     getch();
     system ("CLS");
+cout<<" The First C Program       ";
+
+cout<<"\n";
+
+
+cout<<" Armed with the knowledge about the types of variables, constants & keywords the next logical step is to combine them to form instructions.        ";
+
+cout<<"\n";
+
+
+cout<<"   However, instead of this, we would write our first C program now. Once we have done that we would see in detail the instructions that it made use of.       ";
+
+cout<<"\n";
+
+
+cout<<"Compilation and Execution  ";
+
+cout<<"\n";
+
+
+cout<<"Once you have written the program you need to type it and instruct the machine to execute it. To type your C program you need another program called Editor.         ";
+
+cout<<"\n";
+
+
+cout<<"  Once the program has been typed it needs to be converted to machine language (0s and 1s) before the machine can execute it.        ";
+
+cout<<"\n";
+
+
+cout<<"  To carry out this conversion we need another program called Compiler. Compiler vendors provide an Integrated Development Environment (IDE) which consists of an Editor as well as the Compiler.        ";
+
+cout<<"\n";
+
+
+cout<<" There are several such IDEs available in the market targeted towards different operating systems.        ";
+
+cout<<"\n";
+
+
+cout<<"  For example, Turbo C, Turbo C++ and Microsoft C are some of the popular compilers that work under MS-DOS; Visual C++ and Borland C++ are the compilers that work under Windows, whereas gcc compiler works under Linux.       ";
+
+cout<<"\n";
+
+
+cout<<" Note that Turbo C++, Microsoft C++ and Borland C++ software also contain a C compiler bundled with them. If you are a beginner you would be better off using a simple compiler like Turbo C or Turbo C++. Once you have mastered the language elements you can then switch over to more sophisticated compilers like Visual C++ under Windows or gcc under Linux.        ";
+
+cout<<"\n";
+
+
+cout<<" Note that on compiling the program its machine language equivalent is stored as an EXE file (Program1.EXE) on the disk. This file is called an executable file. If we copy this file to another machine we can execute it there without being required to recompile it. In fact the other machine need not even have a compiler to be able to execute the file.       ";
+
+cout<<"\n";
+
+
+cout<<" A word of caution! If you run this program in Turbo C++ compiler, you may get an error — “The function printf should have a prototype”. To get rid of this error, perform the following steps and then recompile the program.        ";
+
+cout<<"\n";
+
+
+cout<<"        ";
+
+
+
+//System("CLS") is used here for clearing up the screen at this point of program
+
+
+
+getch();
+
+
+system ("CLS");
+
+
+cout<<"\n";
+
+
+cout<<"TO BE CONTINUED IN THE LATEST UPDATE";
+
+
+
+    }
 
