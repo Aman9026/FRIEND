@@ -391,4 +391,112 @@ cout<<"\n\n \t\tThe alphabets, numbers and special symbols when properly combine
 //System("CLS") is used here for clearing up the screen at this point of program
     getch();
     system ("CLS");
+cout<<"\n\n \t\tIn any program we typically do lots of calculations. The results of these calculations are stored in computers memory.                         ";
+
+
+
+cout<<"\n\n \t\tLike human memory the computer memory also consists of millions of cells.                         ";
+
+
+
+cout<<"\n\n \t\tThe calculated values are stored in these memory cells. To make the retrieval and usage of these values easy these memory cells (also called memory locations) are given names.                         ";
+
+
+
+cout<<"\n\n \t\t Since the value stored in each location may change the names given to these locations are called variable names. Consider the following example.                          ";
+
+
+
+cout<<"\n\n \t\t Here 3 is stored in a memory location and a name x is given to it. Then we are assigning a new value 5 to the same memory location x. This would overwrite the earlier value 3, since a memory location can hold only one value at a time.                        ";
+
+
+
+cout<<"\n\n \t\t Types of C Constants                        ";
+
+
+
+cout<<"\n\n \t\t C constants can be divided into two major categories: (a) (b) Primary Constants Secondary Constants                        ";
+
+//System("CLS") is used here for clearing up the screen at this point of program
+
+
+getch();
+
+
+system ("CLS");
+
+
+
+cout<<"\n\n \t\tRules for Constructing Integer Constants                         ";
+
+
+
+cout<<"\n\n \t\t";
+
+cout<<"\n\n \t\tThe exponential form of representation of real constants is usually used if the value of the constant is either too small or too large. It however doesn’t restrict us in any way from using exponential form of representation for other real constants.                          ";
+
+
+
+cout<<"\n\n \t\tIn exponential form of representation, the real constant is represented in two parts. The part appearing before ‘e’ is called mantissa, whereas the part following ‘e’ is called exponent.                         ";
+
+
+
+cout<<"\n\n \t\tTypes of C Variables                         ";
+
+
+
+cout<<"\n\n \t\tAs we saw earlier, an entity that may vary during program execution is called a variable. Variable names are names given to locations in memory.                         ";
+
+
+
+cout<<"\n\n \t\t These locations can contain integer, real or character constants. In any language, the types of variables that it can support depend on the types of constants that it can handle. This is because a particular type of variable can hold only the same type of constant. For example, an integer variable can hold only an integer constant, a real variable can hold only a real constant and a character variable can hold only a character constant.                         ";
+
+
+
+//System("CLS") is used here for clearing up the screen at this point of program
+
+
+getch();
+
+
+system ("CLS");
+
+cout<<"\n";
+
+
+cout<<" C Keywords        ";
+
+cout<<"\n";
+
+cout<<"\n";
+
+cout<<"\n";
+
+cout<<" Keywords are the words whose meaning has already been explained to the C compiler (or in a broad sense to the computer). The keywords cannot be used as variable names because if we do so we are trying to assign a new meaning to the keyword, which is not allowed by the computer.        ";
+
+cout<<"\n";
+
+
+cout<<"\n";
+
+
+cout<<"  Some C compilers allow you to construct variable names that exactly resemble the keywords. However, it would be safer not to mix up the variable names and the keywords. The keywords are also called ‘Reserved words’.        ";
+
+cout<<"\n";
+
+
+cout<<"  Note that compiler vendors (like Microsoft, Borland, etc.) provide their own keywords apart from the ones mentioned above. These include extended keywords like near, far, asm, etc.       ";
+
+cout<<"\n";
+
+
+cout<<"   Though it has been suggested by the ANSI committee that every such compiler specific keyword should be preceded by two underscores (as in __asm ), not every vendor follows this rule.      ";
+
+cout<<"\n";
+
+
+
+//System("CLS") is used here for clearing up the screen at this point of program
+    getch();
+    system ("CLS");
 
