@@ -373,4 +373,22 @@ cout<<"\n\n \t\tInstead of straight-away learning how to write programs, we
 	C, then how using them constants, variables and keywords are
 	constructed, and finally how are these combined to form an instruction.
 	";
+cout<<"\n\n \t\tThe C Character Set                         ";
+
+
+
+cout<<"\n\n \t\tA character denotes any alphabet, digit or special symbol used to represent information. Figure 1.2 shows the valid alphabets, numbers and special symbols allowed in C.                         ";
+
+
+
+cout<<"\n\n \t\tConstants, Variables and Keywords                         ";
+
+
+
+cout<<"\n\n \t\tThe alphabets, numbers and special symbols when properly combined form constants, variables and keywords. Let us see what are ‘constants’ and ‘variables’ in C. A constant is an entity that doesn’t change whereas a variable is an entity that may change                        ";
+
+
+//System("CLS") is used here for clearing up the screen at this point of program
+    getch();
+    system ("CLS");
 
