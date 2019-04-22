@@ -200,4 +200,29 @@ int main ()
 
     cout<<"\n \t \t \t \t \t \t  ********************************************************************      ";
 
+//System("CLS") is used here for clearing up the screen at this point of program
+
+
+  getch();
+    system ("CLS");
+
+    int x,xx;
+
+
+    //MENU BASED OPTION USING IF ELSE
+
+    //DISPLAY of MENU
+cout<<"\n\n\n\n \t\t CHOOSE THE DESIRED OPTION FROM THE FOLLOWING- ";
+
+
+    cout<<"\n\n \t\t OPTION * 1 * \tLET US C BY YASHWANT P. KANETKAR";
+
+
+    cout<<"\n \t\t OPTION * 2 * \tGAMES";
+
+
+    cout<<"\n\n \t\t ENTER THE OPTION NUMBER  "<<name<<":\t";
+
+
+    cin>>x;
 
