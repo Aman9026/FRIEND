@@ -120,9 +120,12 @@ int main ()
     system ("CLS");
 
 
+
+
+
 //*************************************
 //                                    *
-//Animesh'S PART OF CODE    *
+//ANIMESH'S PART OF CODE    *
 //                                    *
 //*************************************
 
@@ -167,7 +170,6 @@ int main ()
  cout<<"\n";
 
 
-
 //System("CLS") is used here for clearing up the screen at this point of program
 
             getch();
@@ -200,6 +202,7 @@ int main ()
 
     cout<<"\n \t \t \t \t \t \t  ********************************************************************      ";
 
+
 //System("CLS") is used here for clearing up the screen at this point of program
 
 
@@ -225,6 +228,7 @@ cout<<"\n\n\n\n \t\t CHOOSE THE DESIRED OPTION FROM THE FOLLOWING- ";
 
 
     cin>>x;
+
 //System("CLS") is used here for clearing up the screen at this point of program
 
     system ("CLS");
@@ -345,6 +349,10 @@ cout<<"\n\n \t\tI hope that these are very convincing reasons why one should ado
 
 getch();
 system ("CLS");
+
+
+
+
 //*************************************
 //                                    *
 //DEVMALYA'S PART OF CODE    *
@@ -368,11 +376,12 @@ cout<<"\n\n \t\t The classical method of learning English is to first learn the 
 
 
 
-cout<<"\n\n \t\tInstead of straight-away learning how to write programs, we
-	must first know what alphabets, numbers and special symbols are used in
-	C, then how using them constants, variables and keywords are
-	constructed, and finally how are these combined to form an instruction.
-	";
+cout<<"\n\n \t\tInstead of straight-away learning how to write programs, we must first know what alphabets, numbers and special symbols are used in C, then how using them constants, variables and keywords are constructed, and finally how are these combined to form an instruction.                        ";
+
+
+
+
+
 cout<<"\n\n \t\tThe C Character Set                         ";
 
 
@@ -391,6 +400,8 @@ cout<<"\n\n \t\tThe alphabets, numbers and special symbols when properly combine
 //System("CLS") is used here for clearing up the screen at this point of program
     getch();
     system ("CLS");
+
+
 cout<<"\n\n \t\tIn any program we typically do lots of calculations. The results of these calculations are stored in computers memory.                         ";
 
 
@@ -499,6 +510,9 @@ cout<<"\n";
 //System("CLS") is used here for clearing up the screen at this point of program
     getch();
     system ("CLS");
+
+
+
 cout<<" The First C Program       ";
 
 cout<<"\n";
@@ -582,3 +596,168 @@ cout<<"TO BE CONTINUED IN THE LATEST UPDATE";
 
     }
 
+
+
+
+//*************************************
+//                                    *
+//ANURAG'S PART OF CODE    *
+//                                    *
+//*************************************
+
+
+
+
+
+//the second if block for menu in games section
+    if (x==2)
+    {
+
+
+    //DSIPLAY OF GAMES MENU
+    cout<<"\n\n\n\n \t\t CHOOSE THE DESIRED OPTION FROM THE FOLLOWING- ";
+
+    cout<<"\n\n \t\t OPTION * 1 * \tHangman";
+
+    cout<<"\n \t\t OPTION * 2 * \tTic Tac Toe";
+
+    cout<<"\n\n \t\t ENTER THE OPTION NUMBER  "<<name<<":\t";
+
+    cin>>xx;
+
+//IF BLOCK FOR CHOOSING THE FIRST GAME
+    if (xx==1)
+    {
+
+	string name;
+
+	char letter;
+
+	int num_of_wrong_guesses=0;
+
+	string word;
+
+	string words[] =
+	{
+		"india",
+		"pakistan",
+		"nepal",
+		"malaysia",
+		"bhutan",
+		"australia",
+		"iran",
+		"russia",
+		"oman",
+		"indonesia"
+	};
+
+	//choose and copy a word from array of words randomly
+	srand(time(NULL));
+
+	int n=rand()% 10;
+
+	word=words[n];
+
+	// Initialize the secret word with the * character.
+	string unknown(word.length(),'*');
+
+
+	cout << "\n\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+
+
+	// welcome the user
+	cout << "\n\n\t\tWelcome to hangman...Guess a country Name";
+
+
+	cout<<"\n";
+
+	cout << "\n\n\t\tEach letter is represented by a star.";
+
+cout<<"\n";
+
+
+	cout << "\n\n\t\tYou have to type only one letter in one try";
+
+cout<<"\n";
+
+
+	cout << "\n\n\t\tYou have " << MAX_TRIES << " tries to try and guess the word.";
+
+cout<<"\n";
+
+
+	cout << "\n\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+
+cout<<"\n";
+
+
+	// Loop until the guesses are used up
+
+	while (num_of_wrong_guesses < MAX_TRIES)
+	{
+		cout << "\n\n\t\t" << unknown;
+
+
+		cout << "\n\n\t\tGuess a letter: \t";
+
+
+		cin >> letter;
+		// Fill secret word with letter if the guess is correct,
+
+
+		// otherwise increment the number of wrong guesses.
+
+		if (letterFill(letter, word, unknown)==0)
+		{
+			cout << endl << "\t\tWhoops! That letter isn't in there!" << endl;
+
+			num_of_wrong_guesses++;
+
+		}
+
+		else
+		{
+
+			cout << endl << "\t\tYou found a letter! Isn't that exciting!" << endl;
+
+		}
+
+
+
+		// Tell user how many guesses has left.
+
+		cout << "\t\tYou have " << MAX_TRIES - num_of_wrong_guesses;
+
+
+		cout << "\t\t guesses left." << endl;
+
+
+		// Check if user guessed the word.
+
+
+		if (word==unknown)
+		{
+			cout << word << endl;
+
+			cout << "Yeah! You got it!";
+
+			break;
+
+		}
+	}
+
+	if(num_of_wrong_guesses == MAX_TRIES)
+	{
+
+		cout << "\n\tSorry, you lose...you've been hanged." << endl;
+
+		cout << "\tThe word was : " << word << endl;
+
+	}
+
+	cin.ignore();
+
+
+	cin.get();
+
+    }
